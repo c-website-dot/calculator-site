@@ -1,7 +1,17 @@
+@media (max-width: 480px) {
+  body {
+    height:100%;
+    width:100%;
+  }
+}
+
+
+
+
 body{
     background: linear-gradient(160deg, #8CBED7, #93C5CF, #99CBC6, #A0D2BE, #A6D8B5, #ADDFAD);
     display:flex;
-    height:fit-content;
+    
     
     place-items: center ;
     align-items: center;
