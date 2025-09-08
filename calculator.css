@@ -39,6 +39,7 @@ body{
 }
 .calc-button-row{
     margin-top:5px;
+    width:fit-content;
 }
 
 .wrapper{
