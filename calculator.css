@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(160deg, #8CBED7, #93C5CF, #99CBC6, #A0D2BE, #A6D8B5, #ADDFAD);
+    display:flex;
+    place-items: center ;
+}
+.screen{
+    width:378px;
+    height: 120px;
+    background-color: rgb(237, 251, 255);
+    margin-bottom:20px;
+    margin-left:5px;
+    border-radius:10px;
+    font-size:50px;
+    position:relative;
+    color:rgba(14, 115, 100, 0.819);
+    border:none;
+}
+.numbers{
+    position:absolute;
+    top:50px;
+    bottom:20px;
+    right:5px;
+
+}
+.calc-button-row{
+    margin-top:5px;
+}
+
+.wrapper{
+    background-color:rgba(109, 190, 178, 0.15);    
+    width:fit-content;
+    height:fit-content;
+    border-width: 1px;
+    border-radius:30px;
+    padding:30px;
+    margin-left:500px;
+    margin-top:20px;
+    box-shadow: 0 0 20px 8px rgba(0, 255, 255, 0.5);
+}
+.calc-button-double{
+    background-color:rgb(109, 190, 178);
+    color:rgba(14, 115, 100, 0.819);
+    border-color: rgb(176, 224, 252);
+    border-style:solid;
+    border-radius:5px;
+    border-width:0px;
+    vertical-align:bottom;
+    margin-left:5px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    height: 80px;
+    width: 179px;
+    font-size:xx-large;
+    cursor:pointer;
+    transition:opacity 0.15s;
+}
+
+
+
+
+.calc-button{
+    background-color:rgb(109, 190, 178);
+    color:rgba(14, 115, 100, 0.819);
+    border-color: rgb(176, 224, 252);
+    border-style:solid;
+    border-radius:5px;
+    border-width:0px;
+    vertical-align:bottom;
+    margin-right: 10px;
+    margin-bottom:10px;
+    margin-left:5px;
+    height: 80px;
+    width: 80px;
+    font-size:xx-large;
+    cursor:pointer;
+    transition:opacity 0.15s;
+}
+
+.calc-button-side{
+        background-color:rgb(90, 162, 151);
+        color:rgba(14, 115, 100, 0.819);
+        border-color:rgba(29, 224, 195, 0.61);
+        border-style:solid;
+        border-radius:5px;
+        border-width:0px;
+        vertical-align:bottom;
+        margin-right: 10px;
+        margin-bottom:10px;
+        margin-left:5px;
+        height: 80px;
+        width: 80px;
+        font-size:xx-large;
+        cursor:pointer;
+        transition:opacity 0.15s;
+    }
+
+    .calc-button:hover{
+        opacity:0.60;
+    }
+    .calc-button-double:hover{
+        opacity:0.60;
+    }
+    .calc-button-side:hover{
+        opacity:0.60;
+    }
