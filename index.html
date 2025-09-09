@@ -15,11 +15,9 @@
     
         <input class="screen" id="display" readonly >
 
-        <section class =calculator-buttons>
-            <div class="calc-button-row">
-                <button class="calc-button-double" onclick="ClearDisplay()">
-                    C
-                </button>
+    <div class="buttons">
+            
+                <button class="calc-button-double"  style="grid-column: span 2;" onclick="ClearDisplay()">C</button>
 
                 <button class="calc-button">
                     
@@ -28,9 +26,8 @@
                 <button class="calc-button-side" onclick="AppendToDisplay('/')">
                     &divide;
                 </button>
-            </div>
-                
-            <div class="calc-button-row">
+          
+          
                     
                 <button class="calc-button" onclick="AppendToDisplay('1')">
                     1
@@ -44,9 +41,9 @@
                 <button class="calc-button-side" onclick="AppendToDisplay('*')">
                     &times;
                 </button>
-            </div>
+            
 
-            <div class="calc-button-row">
+           
                     
                 <button class="calc-button" onclick="AppendToDisplay('4')">
                     4
@@ -63,10 +60,10 @@
                 <button class="calc-button-side" onclick="AppendToDisplay('-')">
                     &minus;
                 </button>
-            </div>
+            
 
         
-            <div class="calc-button-row">
+       
                    
                 <button class="calc-button" onclick="AppendToDisplay('7')">
                     7
@@ -83,11 +80,11 @@
                 <button class="calc-button-side" onclick="AppendToDisplay('+')">
                     &plus;
                 </button>
-            </div>
+         
                 
-            <div class="calc-button-row">
+           
                    
-                <button class="calc-button-double" onclick="AppendToDisplay('0')">
+                <button class="calc-button-double" style="grid-column: span 2;" onclick="AppendToDisplay('0')">
                     0
                 </button>
                   
@@ -98,13 +95,13 @@
                 <button class="calc-button-side" onclick="Calculate()">
                     &equals;
                 </button>
-            </div>
+    </div>
                 
         
         
         
         
-        </section>
+        
 </div>
 <script src="script.js"></script>
 </body>
